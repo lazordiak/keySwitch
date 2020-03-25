@@ -22,9 +22,7 @@ boolean choose = false;
 boolean lastChoose = false;
 
 String account[3] = {
-  "580*******zjy", // my password, don't share out
-  "334242",
-  "234234"
+  // insert the passwords here as strings
 };
 
 Encoder myEncoder(2,3);
@@ -81,7 +79,7 @@ void loop() {
   }
   
   if(play){
-//    Keyboard.print("580968720zjy");
+//    Keyboard.print(the password);
     delay(500);
     Keyboard.println("");
     play = false;
